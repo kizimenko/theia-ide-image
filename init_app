@@ -12,8 +12,8 @@ git config --global user.name ${FULLNAME:-"Name Surname"}
 
 cd ${WORKSPACE_PATH}
 sudo mkdir -p .theia
-cp -nR ${BUILD_PATH}/.theia/* ${WORKSPACE_PATH}/.theia
-cp -nR ${BUILD_PATH}/.editorconfig ${WORKSPACE_PATH}/.editorconfig
+sudo cp -nR ${BUILD_PATH}/.theia/* ${WORKSPACE_PATH}/.theia
+sudo cp -nR ${BUILD_PATH}/.editorconfig ${WORKSPACE_PATH}/.editorconfig
 
 cd ${WORKSPACE_PATH}
 sudo chown -R theia:theia .theia 
