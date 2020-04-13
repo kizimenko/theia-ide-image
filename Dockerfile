@@ -1,4 +1,4 @@
-FROM node:current-alpine as glibcbuild
+FROM node:10-alpine as glibcbuild
 
 
 ENV LANG=C.UTF-8
